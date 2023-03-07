@@ -1,0 +1,91 @@
+/* Adding fonts to the body text */
+div {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+/* adding style to buttons */
+button {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+/* adding style to divs and centering div items */
+div h1 {
+  text-align: center;
+}
+
+div #emailentry {
+  text-align: center;
+}
+
+/* parent and child formatting */
+div #parentChild {
+  text-align: center;
+}
+
+div ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+div li {
+  text-align: center;
+}
+
+div #rhinoList {
+  text-align: center;
+}
+
+/* Styling the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+}
+
+nav a:hover {
+  background: #93c47d;
+}
+
+/* Centering the Text */
+#about,
+#types {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Making a dynamic webpage using flexbox */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
