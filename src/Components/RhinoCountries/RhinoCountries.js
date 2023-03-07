@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import { getAllCountries } from "/src/Services/RhinoService";
+import { getAllCountries } from "../../Services/RhinoService";
 import CountriesList from "./CountriesList";
 
 // Container component for haling information regarding rhinos from specific countries

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getAllRhinos } from "/src/Services/RhinoService";
+import { getAllRhinos } from "../../Services/RhinoService";
 
 // this child of the main is for the list of featured rhinos
 const MainList = ({ users }) => {

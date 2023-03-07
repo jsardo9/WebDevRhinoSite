@@ -3,7 +3,7 @@ import {
   getAllRhinosByCountry,
   createRhino,
   removeRhino
-} from "/src/Services/RhinoService";
+} from "../../Services/RhinoService";
 
 // Component for a spedific country
 const CountryEntry = ({ country }) => {
